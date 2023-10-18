@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <link rel="stylesheet" href="fontawesome.min.css"> -->
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Register Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border-bottom: #73a19f;
+
+        }
+
+
+        body {
+            background-image: url(..//src/assets/sunlight.jpg);
+           
+
+            
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #73a19f;
+            border-radius: 3px;
+            font-size: 16px;
+            border-bottom: solid;
+        }
+
+        .container {
+            margin-bottom: 15px;
+            border-bottom: black;
+        }
+
+        .form-group {
+            width: 350px;
+            background-color: #df5353;
+            box-shadow: #5c5088;
+            padding: 20px;
+            border-radius: 0px;
+            box-shadow: 0 2px 4px rgba(153, 110, 110, 0.1);
+            border-style: none;
+        }
+
+        button {
+            width: 103%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        #job {
+            width: 102%;
+        }
+
+        .fa-solid fa-user {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #007bff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+        }
+        .containers
+        {
+            font-size: xxx-large;
+            text-align: center;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="form-group">
+        <div class="containers">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <div class="container">
+            <input type="text" id="text" placeholder="Enter Username">
+        </div>
+        <div class="container">
+            <input type="text" id="text" placeholder="Enter Email">
+        </div>
+        <div class="container">
+            <input type="password" id="password" placeholder="Enter password">
+        </div>
+        <div class="container">
+            <input type="password" id="password" placeholder="Enter Confirm password">
+        </div>
+        <div class="container">
+            <textarea name="" id="job" cols="21" rows="4" placeholder="Description"></textarea>
+        </div>
+        <div class="container">
+            <input list="works" name="jobs" id="work" placeholder="select jobs">
+            <datalist id="works">
+                <option value="Software">
+                <option value="Hardware">
+                <option value="IT">
+                <option value="NON IT">
+                <option value="others">
+            </datalist>
+        </div>
+        <div class="container">
+            <button type="submit">Register Here</button>
+        </div>
+    </div>
+</body>
+
+</html>
